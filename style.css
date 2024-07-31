@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Inter;
 }
 
 nav {
@@ -11,15 +12,15 @@ nav {
     align-items: center;
     padding: 32px 48px 16px 32px;
     font-family: sans-serif;
+    vertical-align: middle;
 }
 
 a {
     color: #000;
     font-size: 14px;
     font-weight: bold;
-    text-decoration: none;
-    border-bottom-width: 2px;
-    border-bottom: solid;
+    text-decoration: inherit;
+    border-color: transparent;
 }
 
 ul {
@@ -35,15 +36,13 @@ li {
 
 .pill {
     font-size: 16px;
-    font-family: sans-serif; 
+    font-family: Inter; 
     padding: 12px 32px;
-    color: #f7fafc;
     background-color: #6415ff;
     cursor: pointer;
     border: none;
     border-radius: 24px;
-    display: flex;
-    
+    display: flex;    
 }
 
 .logo {
@@ -60,10 +59,62 @@ li {
 li a:hover {
     color: #6415ff;
     transition-duration: 300ms;
+    border-bottom-width: 2px;
+    border-bottom: solid;
 }
 
 .pill a:hover {
     background-color:darkblue;
     transition-duration: 300ms;
-    box-shadow: #000;
+}
+
+.one {
+    padding-top: 96px;
+    padding-left: 32px;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.opening-text h1 {
+    font-size: 32px;
+    display: flex;
+    text-align: left;
+
+}
+
+.opening-text p {
+    font-size: 16px;
+    color: #243e63;
+    font-weight: 400;
+    margin: 32px 0px;
+    display: flex;
+    border-style: solid;
+}
+
+span {
+    color: #6415ff;
+    padding-left: 8px;
+    }
+
+.input-bar {
+    width: 100%;
+    max-width: 190px;
+    padding 20px 192px 20px 32px;
+}
+
+.open-img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: solid;
+    border-color: white;
+    overflow-clip-margin: content-box;
+
 }
