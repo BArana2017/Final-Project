@@ -11,16 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 32px 48px 16px 32px;
-    font-family: sans-serif;
-    vertical-align: middle;
-}
-
-a {
-    color: #000;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: inherit;
-    border-color: transparent;
+    font-family: Inter;
 }
 
 ul {
@@ -32,17 +23,22 @@ li {
     padding: 0px 0px 4px;
     margin: 0px 24px;
     align-items: center;
-}
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    }
 
-.pill {
+button {
     font-size: 16px;
-    font-family: Inter; 
+    color: #f7fafc;
     padding: 12px 32px;
     background-color: #6415ff;
     cursor: pointer;
-    border: none;
     border-radius: 24px;
-    display: flex;    
+    margin-right: 20px;
+    text-decoration: none;
+    border-color: transparent;
 }
 
 .logo {
@@ -63,12 +59,13 @@ li a:hover {
     border-bottom: solid;
 }
 
-.pill a:hover {
+button :hover {
     background-color:darkblue;
     transition-duration: 300ms;
+    border-width: 0;
 }
 
-.one {
+.header__description {
     padding-top: 96px;
     padding-left: 32px;
     font-size: 36px;
@@ -81,20 +78,20 @@ li a:hover {
     margin: 0 auto;
 }
 
-.opening-text h1 {
+h1 {
     font-size: 32px;
-    display: flex;
     text-align: left;
+    display:block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 
 }
 
-.opening-text p {
+p {
     font-size: 16px;
     color: #243e63;
     font-weight: 400;
     margin: 32px 0px;
-    display: flex;
-    border-style: solid;
 }
 
 span {
@@ -104,17 +101,18 @@ span {
 
 .input-bar {
     width: 100%;
-    max-width: 190px;
-    padding 20px 192px 20px 32px;
+    max-width: 192px;
+    padding: 24px 192px 24px 32px;
+    margin: 0px 0px 0px -20px
+    border-radius: 9999px;
+    border: solid gray;
+    border-width: 2px;
+    
 }
 
 .open-img {
     max-width: 600px;
     width: 100%;
     height: auto;
-    vertical-align: middle;
-    border: solid;
-    border-color: white;
-    overflow-clip-margin: content-box;
-
+    display: flex;
 }
