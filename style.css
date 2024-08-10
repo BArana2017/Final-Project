@@ -70,12 +70,11 @@ button :hover {
     padding-left: 32px;
     font-size: 36px;
     font-weight: 700;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 40%;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: left;
 }
 
 h1 {
@@ -99,20 +98,35 @@ span {
     padding-left: 8px;
     }
 
-.input-bar {
-    width: 100%;
+input {
+    width: 400px;
+    height:60px;
+    padding: 20px 192px 20px 32px;
     max-width: 192px;
-    padding: 24px 192px 24px 32px;
-    margin: 0px 0px 0px -20px
-    border-radius: 9999px;
+    border-radius: 28px;
     border: solid gray;
     border-width: 2px;
+    background-color: rbg(255, 255, 255);
+    border-color: rbg(226, 232, 240);
+    font-size: 16px;
     
 }
 
 .open-img {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
+    max-width: 1200px;
+    width: 600px;
+    height: 400px;
+}
+
+.title {
+    font-size: 24px;
+    color: #243e63;
+    font-weight: bold;
+}
+
+.description {
     display: flex;
+    color: gray;
+    text-align: left;
+
 }
