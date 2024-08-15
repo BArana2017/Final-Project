@@ -91,10 +91,6 @@ button :hover {
     text-align: left;
 }
 
-.the__header {
-
-}
-
 h1 {
     font-size: 32px;
     text-align: left;
@@ -148,5 +144,15 @@ input {
 .description {
     display: flex;
     color: gray;
+    text-align: left;
+}
+
+.features {
+    padding: 80px 0px;
+}
+
+.services {
+    display: flex;
+    flex: wrap;
     text-align: left;
 }
