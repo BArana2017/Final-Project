@@ -142,21 +142,8 @@ input {
     display: flex;
 }
 
-.title {
-    font-size: 24px;
-    color: #243e63;
-    font-weight: bold;
-}
-
-.description {
-    display: flex;
-    color: gray;
-    text-align: left;
-}
-
 .features {
     padding: 80px 0px;
-    text-align: center;
 
 }
 
@@ -164,11 +151,15 @@ input {
     color: #6415ff;
     font-size: 16px;
     font-weight: 700;
+    text-align: center;
+
 }
 
 .feature__head {
     font-size: 48px;
     font-weight: 700;
+    text-align: center;
+
 }
 
 .feature__body {
@@ -185,4 +176,31 @@ input {
     display: flex;
     margin: 0px 16px 0px 16px;
     padding: 32px 8px;
+}
+
+.title {
+    font-size: 24px;
+    color: #243e63;
+    font-weight: bold;
+    margin-top: 16px;
+
+}
+
+.description {
+    display: flex;
+    color: gray;
+    flex-direction: row;
+    margin-top: 16px;
+    padding: 0px 8px;
+}
+
+.text__wrapper {
+    box-sizing: border-box;
+    width: (calc100%/3);
+    flex-direction: column;
+}
+
+.service__wrapper {
+    padding: 0px 80px 0px 80px;
+
 }
