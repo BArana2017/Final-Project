@@ -1,7 +1,4 @@
 * {
-    padding: 0;
-    margin: 0;
-    
     font-family: Inter;
 }
 
@@ -40,8 +37,8 @@ li {
     text-decoration: none;
     border-color: transparent;
     position: absolute;
-    left: 24.5%;
-    top: 75%;
+    left: 25.2%;
+    top: 80.5%;
 }
 
 .sign__in {
@@ -57,28 +54,17 @@ li {
     display: flex;
 }
 
-.the__header {
-    text-align: left;
-}
-
-.customer__container {
-    display: flex;
-    flex-direction: column;
-    }
-
 .logo__strip {
-    width: 540px;
+    margin-top: 8px;
     height: auto;
-    margin: 0px 24px 0px 0px;
-    padding: 0px  64px 0px 0px;
-    position: relative;
-    vertical-align: middle;
+    width: 500px;
 }
 
 .customers {
     font-family: Inter;
     font-size: 16px;
-    margin: 16px 0px 0px 0px;
+    margin: 32px 0px 0px 0px;
+    color: lightgray;
 }
 
 .login {
@@ -110,8 +96,8 @@ button :hover {
 }
 
 h1 {
-    font-size: 32px;
-    margin: 16px;
+    font-size: 48px;
+    margin: 16px 0px 8px 0px;
 }
 
 p {
@@ -143,11 +129,11 @@ input {
 
 .open-img {
     max-width: 1200px;
-    width: 100%;
+    width: 40%;
     margin:auto;
     height: 400px;
     display: flex;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
 .features {
@@ -239,8 +225,15 @@ input {
 
 .screenshot {
     max-width: 500px;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.quality__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%
 }
