@@ -257,4 +257,19 @@ input {
 
 .container {
     display: flex;
+    margin-bottom: 96px;
+}
+
+.easy__container {
+    display: flex;
+}
+
+.steps__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.laptop {
+    width: 60%;
+    vertical-align: middle;
 }
