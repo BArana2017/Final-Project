@@ -267,9 +267,21 @@ input {
 .steps__container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .laptop {
-    width: 60%;
+    width: 600px;
     vertical-align: middle;
+    margin: 100px 72px 0px 28px; 
+}
+
+.steps__no {
+    font-size: 32px;
+    color: lightgray;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 20px;
 }
