@@ -285,3 +285,7 @@ input {
 h6 {
     font-size: 20px;
 }
+
+.price__container {
+    margin: 96px 0 32px 0;
+}
