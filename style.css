@@ -191,7 +191,7 @@ input {
 .text__wrapper {
     box-sizing: border-box;
     flex-direction: column;
-    width: (calc100%/3);
+    width: calc(100%/3);
 }
 
 .service__wrapper {
@@ -288,4 +288,26 @@ h6 {
 
 .price__container {
     margin: 96px 0 32px 0;
+}
+
+.three__plans {
+    display: flex;
+    flex-direction: column;
+    border:#7c8ba1 solid 1px;
+    width: calc(100%/3);
+    align-items: center;
+}
+
+.threeplan__features {
+    display: flex;
+    flex-direction: column;
+    border: #7c8ba1 solid 1px;
+    width: calc(100%/3);
+    align-items: center;
+}
+
+.buy__now {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
 }
