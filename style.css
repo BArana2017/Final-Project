@@ -324,3 +324,8 @@ h6 {
     border: 2px 0px 2px 0px;
     margin: 0px -32px;
 }
+
+.price__button {
+    border:#7c8ba1 solid 1px;
+    align-items: center;
+}
