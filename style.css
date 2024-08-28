@@ -304,13 +304,34 @@ h6 {
     align-items: center;
 }
 
-.buy__now {
+.buy__one {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 16px 32px;
     border-radius: 9999px;
     border:#7c8ba1 solid 1px;
+    background-color: aquamarine
+}
+
+.buy__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 32px;
+    border-radius: 9999px;
+    border:#7c8ba1 solid 1px;
+    background-color: rgb(98, 98, 249);
+}
+
+.buy__three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 32px;
+    border-radius: 9999px;
+    border:#7c8ba1 solid 1px;
+    background-color: rgb(249, 118, 118);
 }
 
 .all__three {
