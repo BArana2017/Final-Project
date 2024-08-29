@@ -280,10 +280,20 @@ input {
     font-size: 32px;
     color: lightgray;
     font-weight: bold;
+    margin: 40px 16px;
+
 }
 
 h6 {
     font-size: 20px;
+}
+
+.full__step {
+    display: flex;
+}
+
+.stepper {
+    margin: 0px 32px;
 }
 
 .price__container {
@@ -321,7 +331,7 @@ h6 {
     padding: 16px 32px;
     border-radius: 9999px;
     border:#7c8ba1 solid 1px;
-    background-color: rgb(98, 98, 249);
+    background-color: white
 }
 
 .buy__three {
@@ -349,4 +359,26 @@ h6 {
 .price__button {
     border:#7c8ba1 solid 1px;
     align-items: center;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
+
+.link__list {
+    display: flex;
+    flex-direction: column; 
+}
+
+.link__item {
+    display: flex;
+    flex-direction: column;
 }
