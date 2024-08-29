@@ -318,7 +318,7 @@ h6 {
     padding: 16px 32px;
     border-radius: 9999px;
     border:#7c8ba1 solid 1px;
-    background-color: aquamarine
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .buy__two {
@@ -338,7 +338,7 @@ h6 {
     padding: 16px 32px;
     border-radius: 9999px;
     border:#7c8ba1 solid 1px;
-    background-color: rgb(249, 118, 118);
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .all__three {
@@ -348,9 +348,32 @@ h6 {
    }
 
 .personal {
-    padding: 32px;
     border: 2px 0px 2px 0px;
     margin: 0px -32px;
+}
+
+.maybe {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.price, .duration, .feature, .main__feature, .name {
+    color:#000;
+}
+
+.name, .price, .duration {
+    padding: 12px 48px 8px 48px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 48px;
+}
+
+.duration {
+    font-size: 16px;
 }
 
 .price__button {
