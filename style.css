@@ -392,9 +392,15 @@ h6 {
     align-items: center;
 }
 
+.sploosh {
+    padding-bottom: 96px;
+}
+
 .foot {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 16px;
+    background-color: #6415ff;
 }
 
 .links {
