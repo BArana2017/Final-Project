@@ -210,10 +210,8 @@ input {
 .quality__header {
     font-size: 48px;
     font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    margin: 8px 0px 16px 32px;
-    width: 60%;
+    margin: 8px 0px 0px 32px;
+    width: 90%;
 
 }
 
@@ -293,13 +291,12 @@ h6 {
 }
 
 .stepper {
-    margin: 0px 32px;
+    margin: 0px 48px;
 }
 
-.price__container {
-    margin: 96px 0 32px 0;
+.price__wrapper {
+    margin: 96px 0 96px 0;
 }
-
 .three__plans {
     display: flex;
     flex-direction: column;
