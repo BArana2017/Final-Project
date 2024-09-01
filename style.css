@@ -408,13 +408,16 @@ h6 {
 .links {
     display: flex;
     flex-direction: column;
-    width: calc(100%/5);
     align-items: center;
+    width: calc(100%/5);
+    color: white;
+    margin-top: 48px;
 }
 
 .link__list {
     display: flex;
     flex-direction: column; 
+    align-items:flex-start;
 }
 
 .link__item {
@@ -422,13 +425,31 @@ h6 {
     flex-direction: column;
     margin: 8px;
     color: white;
+
 }
 
 .border {
     color: rgba(174, 188, 190, 0.5);
     font-size: bold;
+    margin: 100px 0px 0px 0px;
 }
 
 .last__bit {
     display: flex;
+    color: white;
+}
+
+.last__logo {
+    margin: 100px 0px 50px 10px;
+    font-size: 20px;
+}
+
+.copyright {
+    margin: 100px 300px 50px 400px;
+    font-size: 14px;
+}
+
+.social__media {
+    display: flex;
+    margin: 100px 10px 50px 0px;
 }
