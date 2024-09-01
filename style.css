@@ -312,6 +312,7 @@ h6 {
 }
 
 .buy__one {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,6 +335,7 @@ h6 {
 }
 
 .buy__three {
+    color: white;
     display: flex;
     flex-direction: row;
     padding: 16px 32px;
@@ -400,7 +402,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 16px;
-    background-color: #6415ff;
+    background-color: rgb(100 21 255);
 }
 
 .links {
@@ -418,4 +420,15 @@ h6 {
 .link__item {
     display: flex;
     flex-direction: column;
+    margin: 8px;
+    color: white;
+}
+
+.border {
+    color: rgba(174, 188, 190, 0.5);
+    font-size: bold;
+}
+
+.last__bit {
+    display: flex;
 }
