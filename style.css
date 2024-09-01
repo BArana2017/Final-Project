@@ -72,14 +72,14 @@ li {
     margin: 0px 24px 0px 48px;
 }
 
-li a:hover {
+li :hover {
     color: #6415ff;
     transition-duration: 300ms;
     border-bottom-width: 2px;
     border-bottom: solid;
 }
 
-button :hover {
+button:hover {
     background-color:darkblue;
     transition-duration: 300ms;
     border-width: 0;
@@ -253,6 +253,12 @@ input {
     margin: 8px 0px 8px 32px;   
 }
 
+.learn:hover {
+    background-color:darkblue;
+    transition-duration: 300ms;
+    border-width: 0;
+   }
+
 .container {
     display: flex;
     margin-bottom: 96px;
@@ -322,6 +328,13 @@ h6 {
     border:#7c8ba1 solid 1px;
     background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
+
+.buy__two:hover {
+    background-color:rgb(227, 227, 237);
+    transition-duration: 300ms;
+    border-width: 0;
+    cursor: pointer;
+   }
 
 .buy__two {
     display: flex;
@@ -425,6 +438,13 @@ h6 {
     flex-direction: column;
     margin: 8px;
     color: white;
+}
+
+.link__item:hover {
+    cursor: pointer;
+    transition-duration: 300ms;
+    border-bottom-width: 2px;
+    border-bottom: solid;
 
 }
 
@@ -440,16 +460,32 @@ h6 {
 }
 
 .last__logo {
-    margin: 100px 0px 50px 10px;
+    margin: 100px 20px 50px 10px;
     font-size: 20px;
 }
 
 .copyright {
-    margin: 100px 300px 50px 400px;
+    margin: 100px 250px 50px 400px;
     font-size: 14px;
 }
 
 .social__media {
     display: flex;
-    margin: 100px 10px 50px 0px;
+    margin: 70px 0px 0px 0px;
+}
+
+.facebook {
+    border-radius: 9999px;
+    margin: 8px;
+
+}
+
+.twitter {
+    margin: 8px;
+    border-radius: 9999px;
+}
+
+.youtube {
+    margin: 8px;
+    border-radius: 9999px;
 }
