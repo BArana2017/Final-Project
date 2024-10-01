@@ -38,7 +38,7 @@ li {
     border-color: transparent;
     position: absolute;
     left: 25.2%;
-    top: 82.5%;
+    top: 82.55%;
 }
 
 .sign__in {
@@ -162,11 +162,8 @@ input {
 .feature__body {
     color: #7c8ba1;
     font-size: 16px;
-    width: 100%;
-    max-width: 36rem;
     text-align: center;
-    padding-left: 340px;
-
+    margin: 0px 300px 32px 300px;
 }
 
 .services {
@@ -293,6 +290,7 @@ input {
 
 h6 {
     font-size: 20px;
+    margin: 48px 0px 16px 0px;
 }
 
 .full__step {
@@ -300,7 +298,7 @@ h6 {
 }
 
 .stepper {
-    margin: 0px 48px;
+    margin: 0px 150px 0px 0px;
 }
 
 .price__wrapper {
@@ -311,6 +309,8 @@ h6 {
     flex-direction: column;
     border:#7c8ba1 solid 1px;
     align-items: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .threeplan__features {
@@ -383,6 +383,8 @@ h6 {
 
 .maybe {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .price, .duration, .feature, .main__feature, .name {
