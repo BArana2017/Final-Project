@@ -70,11 +70,6 @@ margin: 0px 150px 0px 0px;
     width: 500px;
 }
 
-.template {
-    width: 100%;
-    max-width: 1200px;
-}
-
 .customers {
     font-family: Inter;
     font-size: 16px;
@@ -169,13 +164,13 @@ input {
     color: #7c8ba1;
     font-size: 16px;
     text-align: center;
-    margin: 16px 96px
+    width: 70%;
 }
 
 .services {
     display: flex;
-    margin: 0px 16px 0px 16px;
-    padding: 32px 8px;
+    margin: 32px;
+    padding: 32px;
 }
 
 .title {
@@ -259,7 +254,8 @@ input {
     margin-right: 20px;
     text-decoration: none;
     border-color: transparent;
-    margin: 8px 0px 8px 32px;   
+    margin: 8px 0px 8px 32px;  
+    width: 155px; 
 }
 
 .learn:hover {
