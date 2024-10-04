@@ -1,5 +1,8 @@
 * {
     font-family: Inter;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav {
@@ -7,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 48px 16px 32px;
+    padding: 8px;
     font-family: Inter;
 }
 
@@ -17,8 +20,7 @@ ul {
 
 li {
     list-style-type: none;
-    padding: 0px 0px 4px;
-    margin: 0px 24px;
+    margin: 0px 48px;
     align-items: center;
     color: #000;
     font-size: 14px;
@@ -29,33 +31,38 @@ li {
 .enter {
     font-size: 16px;
     color: #f7fafc;
-    padding: 12px 32px;
+    padding: 12px;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 24px;
-    margin-right: 20px;
+    margin: 8px;
     text-decoration: none;
     border-color: transparent;
     position: absolute;
-    left: 25.2%;
-    top: 82.55%;
+    
 }
 
 .sign__in {
     font-size: 16px;
     color: #f7fafc;
-    padding: 12px 32px;
+    padding: 12px;
+    margin-left: 48px;
     background-color: #6415ff;
     cursor: pointer;
-    border-radius: 24px;
+    border-radius: 9999px;
     text-decoration: none;
     border-color: transparent;
     display: flex;
 }
 
 .logo {
-    margin-right: 112px;
+width: 96px;
+margin: 0px 200px 0px 0px;
 }
+
+.logo__bar {
+    display: flex;
+   }
 
 .logo__strip {
     margin-top: 8px;
@@ -177,7 +184,10 @@ input {
     color: #243e63;
     font-weight: bold;
     margin-top: 16px;
+}
 
+.image__description {
+    width: 24px;
 }
 
 .description {
