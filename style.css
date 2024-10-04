@@ -6,9 +6,8 @@
 }
 
 nav {
-    height: 70px;
+    height: 60px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 8px;
     font-family: Inter;
@@ -21,7 +20,7 @@ ul {
 li {
     list-style-type: none;
     margin: 0px 48px;
-    align-items: center;
+    padding: 10px;
     color: #000;
     font-size: 14px;
     font-weight: bold;
@@ -31,22 +30,23 @@ li {
 .enter {
     font-size: 16px;
     color: #f7fafc;
-    padding: 12px;
+    padding: 12px 32px;
+    margin: 8px;
+    width:fit-content;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 24px;
-    margin: 8px;
     text-decoration: none;
     border-color: transparent;
     position: absolute;
+    left: 52%;
     
 }
 
 .sign__in {
     font-size: 16px;
     color: #f7fafc;
-    padding: 12px;
-    margin-left: 48px;
+    padding: 12px 32px;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 9999px;
@@ -56,8 +56,8 @@ li {
 }
 
 .logo {
-width: 96px;
-margin: 0px 200px 0px 0px;
+width: 100px;
+margin: 0px 150px 0px 0px;
 }
 
 .logo__bar {
@@ -79,7 +79,7 @@ margin: 0px 200px 0px 0px;
 
 .login {
     padding: 0px 0px 4px;
-    margin: 0px 24px 0px 48px;
+    margin: 11px 24px 0px 48px;
 }
 
 li :hover {
@@ -147,8 +147,7 @@ input {
 }
 
 .features {
-    padding: 80px 0px;
-
+    padding: 80px;
 }
 
 .feature__title {
@@ -170,7 +169,7 @@ input {
     color: #7c8ba1;
     font-size: 16px;
     text-align: center;
-    margin: 0px 300px 32px 300px;
+    margin: 16px 96px
 }
 
 .services {
