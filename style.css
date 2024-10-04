@@ -39,7 +39,7 @@ li {
     text-decoration: none;
     border-color: transparent;
     position: absolute;
-    left: 52%;
+    left: 41%;
     
 }
 
@@ -70,6 +70,11 @@ margin: 0px 150px 0px 0px;
     width: 500px;
 }
 
+.template {
+    width: 100%;
+    max-width: 1200px;
+}
+
 .customers {
     font-family: Inter;
     font-size: 16px;
@@ -96,13 +101,11 @@ button:hover {
    }
 
 .opening {
-    padding-top: 96px;
-    padding-left: 32px;
+    padding: 96px;
     font-size: 32px;
     font-weight: 700;
     display: flex;
-    width: 1000%;
-    max-width: 40%;
+    flex-direction: center;
 }
 
 h1 {
@@ -139,11 +142,8 @@ input {
 
 .open-img {
     max-width: 1200px;
-    width: 40%;
-    margin:auto;
-    height: 400px;
+    width: 60%;
     display: flex;
-    padding-left: 100px;
 }
 
 .features {
