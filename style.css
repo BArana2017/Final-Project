@@ -19,8 +19,8 @@ ul {
 
 li {
     list-style-type: none;
-    margin: 0px 48px;
-    padding: 10px;
+    margin: 0px 8px;
+    padding: 10px 0px 0px 100px;
     color: #000;
     font-size: 14px;
     font-weight: bold;
@@ -164,13 +164,12 @@ input {
     color: #7c8ba1;
     font-size: 16px;
     text-align: center;
-    width: 70%;
+    max-width: 40rem;
+    padding: 0px 280px;
 }
 
 .services {
     display: flex;
-    margin: 32px;
-    padding: 32px;
 }
 
 .title {
@@ -199,8 +198,8 @@ input {
 }
 
 .service__wrapper {
-    padding: 0px 80px 0px 80px;
-
+    padding: 0px 24px 0px 24px;
+    margin: 36px 8px 0px 8px;
 }
 
 .quality__title {
