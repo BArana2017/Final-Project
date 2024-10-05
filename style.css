@@ -73,7 +73,7 @@ margin: 0px 150px 0px 0px;
 .customers {
     font-family: Inter;
     font-size: 16px;
-    margin: 32px 0px 0px 0px;
+    margin: 72px 0px 0px 0px;
     color: lightgray;
 }
 
@@ -188,7 +188,7 @@ input {
     color: gray;
     flex-direction: row;
     margin-top: 16px;
-    padding: 0px 8px;
+    padding: 0px 48px 0px 0px;
 }
 
 .text__wrapper {
@@ -228,12 +228,11 @@ input {
 }
 
 .screenshot {
-    width: 45%;
+    width: 60%;
     height: 400px;
     display: flex;
-    margin: 8px 32px 0px 16px;
     vertical-align: middle;
-    margin: 16px 72px 0px 0px;
+    margin: 16px 16px 0px 0px;
     border: solid 1px;
     
 }
