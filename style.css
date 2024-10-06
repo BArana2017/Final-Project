@@ -287,7 +287,7 @@ input {
     font-size: 32px;
     color: lightgray;
     font-weight: bold;
-    margin: 40px 16px;
+    margin: 40px 100px;
 
 }
 
@@ -330,6 +330,7 @@ h6 {
     justify-content: center;
     padding: 16px 32px;
     margin: 16px 80px;
+    width: 125px;
     border-radius: 9999px;
     border:#7c8ba1 solid 1px;
     background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
@@ -343,6 +344,7 @@ h6 {
    }
 
 .buy__two {
+    width: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -356,7 +358,7 @@ h6 {
 .buy__three {
     color: white;
     display: flex;
-    flex-direction: row;
+    width: 125px;
     padding: 16px 32px;
     margin: 16px 80px;
     border-radius: 9999px;
@@ -366,23 +368,31 @@ h6 {
 
 .all__three {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     margin: 0px 96px;
+    width: calc(100%/3);
    }
 
    .b__feat {
     color: white;
    }
 
-.personal {
+.Personal {
     border: 2px 0px 2px 0px;
-    margin: 0px -32px;
+    margin: 0px 48px;
+    }
+
+.Enterprise{
+    margin: 0px 48px;
 }
 
 .feature, .main__feature {
     margin: 16px 60px;
+    text-align: center;
+}
 
+.main__feature{
+    font-weight: bold;
 }
 
 .maybe {
@@ -396,7 +406,8 @@ h6 {
 }
 
 .name, .price, .duration {
-    padding: 12px 48px 8px 48px;
+    margin: 12px 0px;
+    text-align: center;
 }
 
 .name {
