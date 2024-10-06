@@ -491,8 +491,9 @@ h6 {
 }
 
 .copyright {
-    margin: 100px 250px 50px 400px;
+    margin: 100px 250px 50px 100px;
     font-size: 14px;
+    text-align: center;
 }
 
 .social__media {
@@ -502,15 +503,18 @@ h6 {
 
 .facebook {
     border-radius: 9999px;
-    margin: 8px;
+    margin: 8px 0px;
+    width: 56px;
     }
 
 .twitter {
-    margin: 8px;
+    margin: 8px 0px;
     border-radius: 9999px;
+    width: 56px;
 }
 
 .youtube {
-    margin: 8px;
+    margin: 8px 0px;
     border-radius: 9999px;
+    width: 56px;
 }
