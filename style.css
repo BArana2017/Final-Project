@@ -37,8 +37,8 @@ li {
     border-radius: 500px;
     text-decoration: none;
     border-color: transparent;
-    
-    
+    position: relative;
+    left: 20%;
 }
 
 .sign__in {
@@ -135,8 +135,7 @@ input {
     background-color: rbg(255, 255, 255);
     border-color: rbg(226, 232, 240);
     font-size: 16px;
-    position: relative;
-    
+    position: absolute; 
 }
 
 .open-img {
