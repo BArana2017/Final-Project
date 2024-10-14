@@ -31,15 +31,13 @@ li {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
-    margin: 8px;
-    width:fit-content;
+    width:160px;
     background-color: #6415ff;
     cursor: pointer;
-    border-radius: 24px;
+    border-radius: 500px;
     text-decoration: none;
     border-color: transparent;
-    position: absolute;
-    left: 41%;
+    
     
 }
 
@@ -55,6 +53,12 @@ li {
     display: flex;
 }
 
+.input__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo {
 width: 100px;
 margin: 0px 150px 0px 0px;
@@ -62,7 +66,7 @@ margin: 0px 150px 0px 0px;
 
 .logo__bar {
     display: flex;
-   }
+}
 
 .logo__strip {
     margin-top: 8px;
