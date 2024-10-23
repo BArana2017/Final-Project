@@ -521,3 +521,33 @@ h6 {
     border-radius: 9999px;
     width: 56px;
 }
+
+@media (max-width: 728px) {
+    
+nav {
+    display:none;
+}
+
+.open-img {
+    display:none;
+    }
+
+.the__header {
+    flex-direction: column;
+    width: 100%;
+    font-size: 28px;
+}
+
+.enter {
+    flex-direction: column;
+}
+
+.customers {
+    font-size: 12px;
+}
+
+.logo__strip {
+    width: 300px;
+}
+
+}
