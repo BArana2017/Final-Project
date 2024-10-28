@@ -524,7 +524,7 @@ h6 {
 
 @media (max-width: 728px) {
     
-nav {
+ul, .sign__in {
     display:none;
 }
 
@@ -534,12 +534,19 @@ nav {
 
 .the__header {
     flex-direction: column;
-    width: 100%;
-    font-size: 28px;
+    width: 60%;
+    font-size: 32px;
+    text-align: center;
 }
 
-.enter {
+.subheader__description {
     flex-direction: column;
+    width: 60%;
+    text-align: center;
+}
+
+.input__list {
+    max-width: 900px;
 }
 
 .customers {
