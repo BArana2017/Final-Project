@@ -532,7 +532,7 @@ ul, .sign__in {
     display:none;
     }
 
-.the__header {
+.the__header, .feature__head {
     flex-direction: column;
     width: 60%;
     font-size: 32px;
@@ -543,6 +543,13 @@ ul, .sign__in {
     flex-direction: column;
     width: 60%;
     text-align: center;
+}
+
+.feature__body {
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    padding: 0px 80px;
 }
 
 .input__list {
