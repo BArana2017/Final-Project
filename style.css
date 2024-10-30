@@ -567,7 +567,15 @@ ul, .sign__in {
 .service__wrapper {
     display: flex;
     flex-direction: column;
-    max-width: calc(100% / 2);
+    width:600px;
+    padding: 0px ;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    text-align: center;
 }
 
 }
