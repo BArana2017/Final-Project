@@ -613,6 +613,14 @@ ul, .sign__in {
     display: none;   
 }
 
+.Personal, .Enterprise {
+    margin: 32px 32px 32px 0px;
+}
 
+.all__three {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
 
 }
