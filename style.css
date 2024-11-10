@@ -592,6 +592,11 @@ ul, .sign__in {
 
 .quality__description {
     padding: 12px 100px 32px 100px;
+}
+
+.learn {
+    width: 400px;
+    margin: 12px 100px 32px 100px;
 
 }
 
