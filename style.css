@@ -623,4 +623,34 @@ ul, .sign__in {
     width: 300px;
 }
 
+.border {
+    display: none;
+}
+
+.foot, .last__bit {
+    display: flex;
+    flex-direction: column;
+}
+
+.link__list {
+    margin: 0px 100px 0px 0px;
+}
+
+.link__head {
+    margin: 0px 0px 0px 64px;
+}
+
+.last__logo{
+    padding: 0px 150px;
+    font-weight: 700;
+}
+
+.copyright{
+    margin: 0px 40px 0px 0px;
+}
+
+.social__media{
+    margin: 48px;
+}
+
 }
