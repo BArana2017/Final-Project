@@ -578,4 +578,26 @@ ul, .sign__in {
     text-align: center;
 }
 
+.quality__title {
+    padding: 0px 200px;
+}
+
+.quality__header {
+    flex-direction: column;
+    width: 60%;
+    font-size: 32px;
+    text-align: center; 
+    padding: 12px 100px 32px 100px;
+}
+
+.quality__description {
+    padding: 12px 100px 32px 100px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 }
