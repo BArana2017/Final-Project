@@ -552,7 +552,13 @@ ul, .sign__in {
 }
 
 .input__list {
+    display: block;
     max-width: 900px;
+}
+
+.enter{
+    margin: 72px 96px 0px 0px;
+    width: 300px;
 }
 
 .customers {
@@ -566,8 +572,6 @@ ul, .sign__in {
 .service__wrapper {
     display: flex;
     flex-direction: column;
-    width:600px;
-    padding: 0px ;
 }
 
 .services {
@@ -594,7 +598,7 @@ ul, .sign__in {
 }
 
 .learn {
-    width: 400px;
+    width: 300px;
     margin: 12px 100px 32px 100px;
 
 }
