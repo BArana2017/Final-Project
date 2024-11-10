@@ -201,8 +201,7 @@ input {
 }
 
 .service__wrapper {
-    padding: 0px 24px 0px 24px;
-    margin: 36px 8px 0px 8px;
+    margin: 36px 20px 0px 0px;
 }
 
 .quality__title {
@@ -256,7 +255,7 @@ input {
     text-decoration: none;
     border-color: transparent;
     margin: 8px 0px 8px 32px;  
-    width: 155px; 
+    width: 160px; 
 }
 
 .learn:hover {
@@ -604,5 +603,16 @@ ul, .sign__in {
     display: flex;
     flex-direction: column;
 }
+
+.screenshot{
+    width: 90%;
+    padding: 50px;
+}
+
+.laptop {
+    display: none;   
+}
+
+
 
 }
