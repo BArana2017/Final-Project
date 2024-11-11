@@ -147,7 +147,7 @@ input {
     padding: 80px;
 }
 
-.feature__title {
+.feature__title, .price__title {
     color: #6415ff;
     font-size: 16px;
     font-weight: 700;
@@ -155,13 +155,13 @@ input {
 
 }
 
-.feature__head {
+.feature__head, .price__head {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
 }
 
-.feature__body {
+.feature__body, .price__body {
     color: #7c8ba1;
     font-size: 16px;
     text-align: center;
@@ -629,8 +629,17 @@ ul, .sign__in {
     display: none;   
 }
 
-.Personal, .Enterprise {
-    margin: 32px 32px 32px 0px;
+.steps__title {
+    padding: 0px 96px 0px 0px;
+}
+
+.price__body {
+    padding-left: 80px;
+    width: 500px;
+}
+
+.Personal, .Enterprise, .maybe {
+    margin: 32px 0px 32px 50px;
 }
 
 .all__three {
