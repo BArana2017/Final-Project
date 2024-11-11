@@ -652,21 +652,17 @@ ul, .sign__in {
     display: none;
 }
 
-.foot, .last__bit {
+.last__bit {
     display: flex;
     flex-direction: column;
 }
 
-.link__list {
-    margin: 0px 100px 0px 0px;
-}
-
-.link__head {
-    margin: 0px 0px 0px 64px;
+.link__item {
+    padding: 10px 0px 10px 40px;
 }
 
 .last__logo{
-    padding: 0px 150px;
+    padding: 0px 250px;
     font-weight: 700;
 }
 
