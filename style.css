@@ -555,19 +555,19 @@ ul, .sign__in {
 }
 
 .enter{
-    margin: 200px 0px 0px 0px;
-    width: 450px;
+    margin: 80px 0px 0px 0px;
+    width: 445px;
     position: absolute;
-    left: 16%;
+    left: 15%;
 }
 
 .customers {
     font-size: 12px;
-    padding: 96px 12px;
-}
+    padding: 96px 0px 0px 124px;
+    }
 
 .logo__strip {
-    width: 300px;
+    width: 445px;
 }
 
 .service__wrapper {
