@@ -31,14 +31,15 @@ li {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
-    width:160px;
+    margin: 8px 0px;
+    width:200px;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 500px;
     text-decoration: none;
     border-color: transparent;
     position: relative;
-    left: 20%;
+    right: 14%;
 }
 
 .sign__in {
@@ -55,8 +56,6 @@ li {
 
 .input__list{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
@@ -557,7 +556,7 @@ ul, .sign__in {
 
 .enter{
     margin: 200px 0px 0px 0px;
-    width: 420px;
+    width: 450px;
     position: absolute;
     left: 16%;
 }
@@ -579,7 +578,6 @@ ul, .sign__in {
 .services {
     display: flex;
     flex-direction: column;
-    width: 600px;
     text-align: center;
 }
 
