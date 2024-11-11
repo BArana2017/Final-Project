@@ -551,18 +551,20 @@ ul, .sign__in {
     padding: 0px 80px;
 }
 
-.input__list {
-    display: block;
-    max-width: 900px;
+.email {
+    position:relative;
 }
 
 .enter{
-    margin: 72px 96px 0px 0px;
-    width: 300px;
+    margin: 200px 0px 0px 0px;
+    width: 420px;
+    position: absolute;
+    left: 16%;
 }
 
 .customers {
     font-size: 12px;
+    padding: 96px 12px;
 }
 
 .logo__strip {
