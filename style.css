@@ -202,28 +202,26 @@ input {
     margin: 36px 20px 0px 0px;
 }
 
-.quality__title {
+.quality__title, .values__title {
     color: #6415ff;
     font-size: 16px;
     font-weight: 700;
     margin-left: 32px;
-
 }
 
-.quality__header {
+.quality__header, .values__header {
     font-size: 48px;
     font-weight: 700;
     margin: 8px 0px 0px 32px;
-    width: 90%;
-
+    width: 60%;
 }
 
-.quality__description {
+.quality__description, .values__descriprion {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin: 8px 0px 16px 32px;
-    width: 70%;
+    width: 60%;
     font-size: 18px;
 }
 
@@ -234,10 +232,9 @@ input {
     vertical-align: middle;
     margin: 16px 16px 0px 0px;
     border: solid 1px;
-    
 }
 
-.quality__wrapper {
+.quality__wrapper, .values__wrapper {
     display: flex;
     flex-direction: column;
 }
@@ -288,7 +285,20 @@ input {
     color: lightgray;
     font-weight: bold;
     margin: 40px 100px;
+}
 
+.values__descriprion {
+    max-width: 50%;
+    text-align: left;
+    margin: 8px 0px 16px 32px;
+}
+
+.values_icon {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    vertical-align: middle;
+    margin: 16px 16px 0px 0px;
 }
 
 h6 {
