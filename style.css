@@ -293,6 +293,10 @@ input {
     margin: 8px 0px 16px 32px;
 }
 
+.aff__img {
+    width: 30px;
+}
+
 .values_icon {
     width: 50%;
     height: 400px;
