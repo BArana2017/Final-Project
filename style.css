@@ -288,13 +288,16 @@ input {
 }
 
 .values__descriprion {
-    max-width: 50%;
     text-align: left;
     margin: 8px 0px 16px 32px;
 }
 
 .aff__img {
     width: 30px;
+}
+
+.idk {
+    display: flex;
 }
 
 .values_icon {
