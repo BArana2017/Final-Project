@@ -173,7 +173,7 @@ input {
     display: flex;
 }
 
-.title {
+.title, .test__title {
     font-size: 24px;
     color: #243e63;
     font-weight: bold;
@@ -204,19 +204,19 @@ input {
 
 .quality__title, .values__title {
     color: #6415ff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     margin-left: 32px;
 }
 
-.quality__header, .values__header {
-    font-size: 48px;
+.quality__header, .values__header, .test__header {
+    font-size: 56px;
     font-weight: 700;
     margin: 8px 0px 0px 32px;
     width: 60%;
 }
 
-.quality__description, .values__descriprion {
+.quality__description, .values__descriprion, .test__description {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -285,6 +285,10 @@ input {
     color: lightgray;
     font-weight: bold;
     margin: 40px 100px;
+}
+
+.values {
+    padding-top: 96px;
 }
 
 .values__descriprion {
@@ -446,6 +450,39 @@ h6 {
 
 .sploosh {
     padding-bottom: 96px;
+}
+
+.testimonials {
+    display: flex;
+    padding: 96px 0px; 
+}
+
+.test__img {
+    width:100%;
+    max-width: 455px;
+}
+
+.test__description {
+    width: 500px;
+}
+
+.test__title {
+    padding: 0px 0px 0px 30px;
+}
+
+.star {
+    width: 100px;
+    height:20px;
+    padding: 0px 340px 0px 0px;
+}
+
+.test__header {
+    width: 600px;
+}
+
+.test__wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .foot {
