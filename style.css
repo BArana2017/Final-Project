@@ -728,4 +728,15 @@ ul, .sign__in {
     margin: 48px;
 }
 
+.values_icon {
+    display: none;
+}
+
+.idk {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+}
+
 }
