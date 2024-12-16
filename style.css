@@ -454,7 +454,7 @@ h6 {
 
 .testimonials {
     display: flex;
-    padding: 96px 0px; 
+    padding: 96px 0px 300px 0px; 
 }
 
 .test__img {
@@ -483,6 +483,22 @@ h6 {
 .test__wrapper {
     display: flex;
     flex-direction: column;
+}
+
+.person {
+    width: 250px;
+    padding-right: 30px;
+}
+
+.test__button {
+    border-radius: 9999px;
+    width:60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.testimonial__buttons {
+    display:flex
 }
 
 .foot {
@@ -772,6 +788,10 @@ ul, .sign__in {
 
 .star {
     padding: 0px 250px;
+}
+
+.testimonial__buttons {
+    display: none;
 }
 
 }
