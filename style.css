@@ -659,7 +659,7 @@ ul, .sign__in {
     padding: 12px 100px 32px 100px;
 }
 
-.quality__description {
+.quality__description, .values__descriprion, .price__body {
     padding: 12px 100px 32px 100px;
 }
 
@@ -737,6 +737,18 @@ ul, .sign__in {
     flex-direction: column;
     text-align: center;
     width: 200px;
+}
+
+.values__header, .values__descriprion, .values__title {
+    text-align: center;
+}
+
+.values__header {
+    padding: 0px 100px;
+}
+
+.values__description {
+    text-align: center;
 }
 
 }
