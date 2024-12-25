@@ -391,7 +391,6 @@ h6 {
     display: flex;
     justify-content: space-around;
     margin: 0px 96px;
-    width: calc(100%/3);
    }
 
    .b__feat {
