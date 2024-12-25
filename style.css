@@ -27,7 +27,7 @@ li {
     text-decoration: none;
     }
 
-.enter {
+.enter, .develop, .dev__button {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
@@ -501,6 +501,27 @@ h6 {
     display:flex
 }
 
+.developers {
+    color: #f7fafc;
+    font-size: 32px;
+    padding: 60px;
+}
+
+.development {
+    display: flex;
+    margin-bottom: 300px;
+    background-color: rgb(100 21 255);
+}
+
+.develop {
+    background-color: orangered;
+    margin: 80px 30px;
+}
+
+.dev__button {
+    border: solid 2px #f7fafc;
+}
+
 .foot {
     display: flex;
     flex-wrap: wrap;
@@ -791,6 +812,10 @@ ul, .sign__in {
 }
 
 .testimonial__buttons {
+    display: none;
+}
+
+.out {
     display: none;
 }
 
