@@ -545,7 +545,6 @@ h6 {
     display: flex;
     flex-direction: column; 
     align-items:flex-start;
-    padding: 8px 0px;
     
 }
 
@@ -558,11 +557,11 @@ h6 {
 
 .link__item:hover {
     cursor: pointer;
-    transition-duration: 300ms;
     border-bottom-width: 2px;
     border-bottom: solid;
-
+    color: white;
 }
+
 
 .border {
     color: rgba(174, 188, 190, 0.5);
