@@ -26,7 +26,7 @@ li {
     text-decoration: none;
     }
 
-.enter, .develop, .dev__button {
+.enter {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
@@ -38,10 +38,21 @@ li {
     text-decoration: none;
     border-color: transparent;
     position: relative;
-    left: 47%;
+    left: 47%; 
 }
 
-
+.develop, .dev__button {
+    font-size: 16px;
+    color: #f7fafc;
+    padding: 12px 32px;
+    margin: 8px 0px;
+    width:200px;
+    background-color: #6415ff;
+    cursor: pointer;
+    border-radius: 500px;
+    text-decoration: none;
+    border-color: transparent;
+}
 
 .logo {
 width: 100px;
@@ -501,10 +512,17 @@ h6 {
 .develop {
     background-color: orangered;
     margin: 80px 30px;
+    
 }
 
 .dev__button {
     border: solid 2px #f7fafc;
+    margin: 80px 30px;
+    background-color:  rgb(100 21 255);
+}
+
+.develop__buttons {
+    display: flex;
 }
 
 .foot {
@@ -537,7 +555,7 @@ h6 {
 .link__item {
     display: flex;
     flex-direction: column;
-    margin: 8px 0px;
+    margin: 8px 0px 8px 0px;
     color: white;
 }
 
@@ -578,18 +596,18 @@ h6 {
 
 .facebook {
     border-radius: 9999px;
-    margin: 8px 0px;
+    margin: 8px 0px 8px 20px;
     width: 56px;
     }
 
 .twitter {
-    margin: 8px 0px;
+    margin: 8px 0px 8px 20px;
     border-radius: 9999px;
     width: 56px;
 }
 
 .youtube {
-    margin: 8px 0px;
+    margin: 8px 0px 8px 20px;
     border-radius: 9999px;
     width: 56px;
 }
