@@ -525,6 +525,15 @@ h6 {
     display: flex;
 }
 
+.dev__button:hover {
+background-color: white;
+color:#6415ff;
+}
+
+.develop:hover {
+    background-color: #f56565;
+}
+
 .foot {
     display: flex;
     flex-wrap: wrap;
@@ -535,27 +544,26 @@ h6 {
 .links {
     display: flex;
     flex-direction: column;
-    width: calc(100%/5);
     color: white;
     margin-top: 48px;
 }
 
 .link__head {
     text-align: center;
-    padding: 8px;
+    padding: 8px 0px 8px 32px;
 }
 
 .link__list {
     display: flex;
     flex-direction: column; 
     align-items:flex-start;
-    margin: 8px 100px 8px 0px;
+    margin: 8px 0px;
     }
 
 .link__item {
     display: flex;
     flex-direction: column;
-    margin: 8px 0px 8px 0px;
+    margin: 8px 0px;
     color: white;
 }
 
