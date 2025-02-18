@@ -12,11 +12,7 @@ nav {
     font-family: Inter;
 }
 
-ul {
-    display: flex;
-}
-
-li {
+.nav__link {
     list-style-type: none;
     margin: 0px 8px;
     padding: 10px 0px 0px 100px;
@@ -24,6 +20,7 @@ li {
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    display: flex;
     }
 
 .enter {
