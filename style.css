@@ -260,10 +260,9 @@ input {
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 24px;
-    margin-right: 20px;
     text-decoration: none;
     border-color: transparent;
-    width: 160px;    
+    width: 160px;  
 }
 
 .learn:hover {
@@ -566,15 +565,14 @@ color:#6415ff;
 
 .link__head {
     text-align: center;
-    padding: 8px 0px 8px 32px;
 }
 
 .link__list {
     display: flex;
     flex-direction: column; 
-    align-items:flex-start;
-    margin: 8px 0px;
-    }
+    align-items:start;
+    justify-content: center;
+}
 
 .link__item {
     display: flex;
@@ -588,6 +586,14 @@ color:#6415ff;
     border-bottom-width: 2px;
     border-bottom: solid;
     color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .border {
@@ -726,11 +732,11 @@ ul, .sign__in {
     text-align: center;
 }
 
-.learn {
-    width: 300px;
-    margin: 12px 100px 32px 150px;
-
+.learn{
+    width: 30px;
+    margin: 12px 10px 32px 50px;
 }
+
 
 .container {
     display: flex;
