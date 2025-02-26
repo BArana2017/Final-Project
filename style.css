@@ -8,12 +8,15 @@ nav {
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 8px;
     font-family: Inter;
 }
 
 .nav__links{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav__link{
@@ -26,18 +29,25 @@ nav {
     transition: all 300ms;
     margin: 0 24px;
     text-decoration: none;
-    padding: 4px 0px 2px 12px;
-    margin: 0px 8px;
     align-items: center;
     display: flex;
-    width: 78px;
+    position: relative;
 }
 
-a:hover {
-    cursor: pointer;
-    border-bottom-width: 2px;
-    border-bottom: solid;
-    color: #6415ff;
+.nav__link:after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    background-color: #6415ff;
+    width: 0;
+    bottom: -5px;
+    right: 0;
+    transition: all 400ms ease;
+}
+
+.nav__link:hover:after{
+    width: 100%;
+    left: 0;
 }
 
 .login {
@@ -74,11 +84,12 @@ a:hover {
 
 .logo {
 width: 150px;
-margin: 0px 200px 0px 90px;
 }
 
 .logo__bar {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo__strip {
@@ -140,8 +151,8 @@ input {
 }
 
 .open-img {
-    max-width: 1200px;
-    width: 60%;
+    max-width: 512px;
+    width: 100%;
     display: flex;
 }
 
@@ -251,9 +262,7 @@ input {
     margin-right: 20px;
     text-decoration: none;
     border-color: transparent;
-    width: 160px; 
-    margin: 8px 350px 8px 0px;  
-    
+    width: 160px;    
 }
 
 .learn:hover {
