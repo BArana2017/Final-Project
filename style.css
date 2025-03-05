@@ -422,7 +422,7 @@ h6 {
     margin: 0px 96px;
    }
 
-   .b__feat {
+.b__feat {
     color: white;
    }
 
@@ -486,8 +486,9 @@ h6 {
 }
 
 .test__img {
-    width:100%;
-    max-width: 455px;
+    width:560px;
+    height: 400px;
+    margin: 100px 0px 0px 12px;
 }
 
 .test__description {
