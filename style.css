@@ -50,7 +50,8 @@ nav {
     left: 0;
 }
 
-.submit {font-size: 16px;
+.submit {
+    font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
     margin: 0px;
@@ -251,11 +252,11 @@ input {
 }
 
 .screenshot {
-    width: 60%;
-    height: 400px;
+    width: 40%;
+    height: 300px;
     display: flex;
     vertical-align: middle;
-    margin: 16px 16px 0px 0px;
+    margin: 80px 52px 0px 0px;
     border: solid 1px;
 }
 
