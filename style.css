@@ -496,13 +496,13 @@ h6 {
 }
 
 .test__title {
-    padding: 0px 0px 0px 30px;
+    padding: 0px 170px 0px 0px;
 }
 
 .star {
     width: 100px;
     height:20px;
-    padding: 0px 340px 0px 0px;
+    padding: 0px 370px 0px 0px;
 }
 
 .test__header {
@@ -523,11 +523,12 @@ h6 {
     border-radius: 9999px;
     width:60px;
     height: 60px;
-    margin-top: 10px;
+    margin: 10px 8px 0px 0px;
 }
 
 .testimonial__buttons {
     display:flex
+    
 }
 
 .developers {
