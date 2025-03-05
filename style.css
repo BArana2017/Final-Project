@@ -312,6 +312,10 @@ input {
     margin: 40px 100px;
 }
 
+.values__header {
+    width: 500px;
+}
+
 .values {
     padding-top: 96px;
 }
