@@ -235,7 +235,7 @@ input {
     margin-left: 32px;
 }
 
-.quality__header, .values__header, .test__header {
+.quality__header, .values__header, .test__header, .steps__header {
     font-size: 56px;
     font-weight: 700;
     margin: 8px 0px 0px 32px;
@@ -293,6 +293,11 @@ input {
     display: flex;
 }
 
+.steps__header{
+    width: 550px;
+    margin: 0px;
+}
+
 .steps__container {
     display: flex;
     flex-direction: column;
@@ -305,11 +310,19 @@ input {
     margin: 100px 72px 0px 28px; 
 }
 
+.full__step {
+    display: flex;
+}
+
+.stepper {
+    margin: 0px 50px 0px 0px;
+}
+
 .steps__no {
     font-size: 32px;
     color: lightgray;
     font-weight: bold;
-    margin: 40px 100px;
+    margin: 45px 30px;
 }
 
 .values__header {
@@ -344,14 +357,6 @@ input {
 h6 {
     font-size: 20px;
     margin: 48px 0px 16px 0px;
-}
-
-.full__step {
-    display: flex;
-}
-
-.stepper {
-    margin: 0px 150px 0px 0px;
 }
 
 .price__wrapper {
