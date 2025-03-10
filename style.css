@@ -399,6 +399,12 @@ h6 {
     background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+.buy__one:hover {
+    transition-duration: 300ms;
+    border-width: 0;
+    cursor: pointer;
+   }
+
 .buy__two:hover {
     background-color:rgb(227, 227, 237);
     transition-duration: 300ms;
@@ -428,6 +434,12 @@ h6 {
     border:#7c8ba1 solid 1px;
     background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
+.buy__three:hover {
+    transition-duration: 300ms;
+    border-width: 0;
+    cursor: pointer;
+   }
 
 .all__three {
     display: flex;
