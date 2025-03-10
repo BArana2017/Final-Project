@@ -187,7 +187,13 @@ input {
     text-align: center;
 }
 
-.feature__body, .price__body {
+.description {
+    color: #7c8ba1;
+    font-size: 16px;
+    text-align: left;
+}
+
+.price__body, .feature__body {
     color: #7c8ba1;
     font-size: 16px;
     text-align: center;
@@ -197,6 +203,7 @@ input {
 
 .services {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .title, .test__title {
@@ -213,10 +220,7 @@ input {
 .description {
     display: flex;
     color: gray;
-    flex-direction: row;
-    margin-top: 16px;
-    padding: 0px 48px 0px 0px;
-}
+    }
 
 .text__wrapper {
     box-sizing: border-box;
@@ -225,7 +229,11 @@ input {
 }
 
 .service__wrapper {
-    margin: 36px 20px 0px 0px;
+    width: calc(100%/3);
+}
+
+.service {
+    padding: 32px 24px;
 }
 
 .quality__title, .values__title {
