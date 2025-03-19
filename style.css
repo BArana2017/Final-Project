@@ -745,11 +745,12 @@ a{
 }
 
 .feature__head {
-    padding-right: 150px;
+    padding-right: 0px;
 }
 
 .feature__body {
     max-width: 300px;
+    padding-left: 60px;
 }
 
 .service__wrapper {
@@ -761,6 +762,11 @@ a{
 .services {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding-right: 100px;
+}
+
+.description{
     text-align: center;
 }
 
