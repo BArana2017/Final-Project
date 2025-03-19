@@ -771,24 +771,24 @@ a{
 }
 
 .quality__title {
-    padding: 0px 200px;
+    padding: 0px 100px;
 }
 
 .quality__header {
     flex-direction: column;
-    width: 60%;
+    width: 90%;
     font-size: 32px;
     text-align: center; 
-    padding: 12px 100px 32px 100px;
+    padding: 12px 0px 32px 0px;
 }
 
 .quality__description, .values__descriprion, .price__body {
-    padding: 12px 150px 32px 100px;
+    padding: 12px 150px 32px 70px;
     text-align: center;
 }
 
 .learn{
-    width: 30px;
+    width: 300px;
     margin: 12px 10px 32px 50px;
 }
 
@@ -799,8 +799,10 @@ a{
 }
 
 .screenshot{
-    width: 90%;
+    width: 400px;
+    height:100px
     padding: 50px;
+    margin-left: 5px
 }
 
 .laptop {
