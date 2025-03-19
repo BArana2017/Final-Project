@@ -688,7 +688,7 @@ a{
 
 @media (max-width: 728px) {
     
-ul, .sign__in {
+.nav__links, .submit {
     display:none;
 }
 
@@ -717,24 +717,28 @@ ul, .sign__in {
 }
 
 .email {
-    position:relative;
+    width: 50px;
+    position: absolute;
+    left: 15%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .enter{
     margin: 80px 0px 0px 0px;
-    width: 445px;
+    width: 350px;
     position: absolute;
     left: 15%;
 }
 
 .customers {
     font-size: 12px;
-    padding: 96px 0px 0px 124px;
+    padding: 96px 0px 0px 50px;
     }
 
 .logo__strip {
-    width: 445px;
-}
+    width: 300px;
+    }
 
 .feature__title {
     max-width: 450px;
