@@ -11,6 +11,7 @@ nav {
     justify-content: space-between;
     padding: 8px;
     font-family: Inter;
+    max-width: 1200px;
 }
 
 .nav__links{
@@ -236,7 +237,7 @@ input {
     padding: 32px 24px;
 }
 
-.quality__title, .values__title {
+.quality__title, .values__title, .step__title {
     color: #6415ff;
     font-size: 20px;
     font-weight: 700;
@@ -701,12 +702,14 @@ a{
     width: 60%;
     font-size: 32px;
     text-align: center;
+    padding-left: 50px;
 }
 
 .subheader__description {
     flex-direction: column;
     width: 60%;
     text-align: center;
+    padding-left: 50px;
 }
 
 .feature__body {
@@ -717,8 +720,9 @@ a{
 }
 
 .email {
-    width: 50px;
-    position: absolute;
+    width: 100%;
+    max-width: 448px;
+    position: relative;
     left: 15%;
     margin: 0px;
     padding: 0px;
@@ -770,8 +774,9 @@ a{
     text-align: center;
 }
 
-.quality__title {
-    padding: 0px 100px;
+.quality__title, .step__title {
+    text-align: center; 
+    padding: 0px;
 }
 
 .quality__header {
@@ -795,23 +800,34 @@ a{
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .screenshot{
     width: 400px;
     height:100px
     padding: 50px;
-    margin-left: 5px
+    margin: 0px 0px 56px 5px;
 }
 
 .laptop {
     display: none;   
 }
 
+.step__title{
+    padding-right: 200px;
+}
+
 .steps__title {
     padding: 0px 96px 0px 0px;
 }
+
+.steps__header{
+    font-size: 32px;
+    padding-left: 70px;
+}
+
+
 
 .price__body {
     padding-left: 80px;
