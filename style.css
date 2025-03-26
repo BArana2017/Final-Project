@@ -827,15 +827,23 @@ a{
     padding-left: 70px;
 }
 
-
+.values{
+    width: 60%;
+    max-width: 400px;
+}
 
 .price__body {
-    padding-left: 80px;
-    width: 500px;
+    padding-left:60px;
+    width: 70%;
+    max-width: 450px;
 }
 
 .Personal, .Enterprise, .maybe {
-    margin: 32px 0px 32px 50px;
+    margin: 32px 50px 32px 0px;
+}
+
+.buy__one, .buy__two, .buy__three {
+    margin-left: 65px;
 }
 
 .all__three {
