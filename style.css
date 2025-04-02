@@ -859,9 +859,10 @@ a{
 }
 
 .test__header{
-    width: 200px;
+    width: 350px;
     max-width: 100%;
-    margin: 0px 0px 0px 50px;
+    align-items: center;
+    text-align: center;
 }
 
 .testimonials {
@@ -874,15 +875,24 @@ a{
 .test__paragraph {
     align-items: center;
     text-align: center;
-    padding: 0px 0px 0px 70px;
+    padding: 0px 50px 0px 0px;
 }
 
 .test__title{
-    width:300px;
-    max-width: 100%;
+    width: 60%;
+    max-width: 300px;
     align-items: center;
     text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.star, .test__title{
     margin: 0px 0px 0px 0px;
+}
+
+.test__description{
+    align-items: center;
+    text-align: center;
 }
 
 .border {
