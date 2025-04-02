@@ -237,7 +237,7 @@ input {
     padding: 32px 24px;
 }
 
-.quality__title, .values__title, .step__title {
+.quality__title, .values__title, .step__title, .tests__title {
     color: #6415ff;
     font-size: 20px;
     font-weight: 700;
@@ -251,7 +251,7 @@ input {
     width: 60%;
 }
 
-.quality__description, .values__descriprion, .test__description {
+.quality__description, .values__descriprion, .test__description, .test__paragraph {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -523,23 +523,20 @@ h6 {
 }
 
 .test__title {
-    padding: 0px 170px 0px 0px;
+    padding: 0px 140px 0px 0px;
 }
 
 .star {
     width: 100px;
     height:20px;
-    padding: 0px 370px 0px 0px;
+    padding: 0px 340px 0px 0px;
 }
 
 .test__header {
     width: 600px;
 }
 
-.test__wrapper {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .person {
     width: 250px;
@@ -774,12 +771,12 @@ a{
     text-align: center;
 }
 
-.quality__title, .step__title {
+.quality__title, .step__title, .tests__title {
     text-align: center; 
     padding: 0px;
 }
 
-.quality__header {
+.quality__header, .test__header {
     flex-direction: column;
     width: 90%;
     font-size: 32px;
@@ -855,6 +852,37 @@ a{
 .test__img {
     max-width: 400px;
     height: 300px;
+}
+
+.tests__title {
+    padding: 0px 40px 0px 0px;
+}
+
+.test__header{
+    width: 200px;
+    max-width: 100%;
+    margin: 0px 0px 0px 50px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.test__paragraph {
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 0px 70px;
+}
+
+.test__title{
+    width:300px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
 }
 
 .border {
