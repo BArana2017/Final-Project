@@ -887,12 +887,14 @@ a{
 }
 
 .star, .test__title{
-    margin: 0px 0px 0px 0px;
+    margin: 12px 0px 0px 0px;
 }
 
 .test__description{
     align-items: center;
     text-align: center;
+    max-width: 400px;
+    margin: 0px 0px 0px 0px;
 }
 
 .border {
