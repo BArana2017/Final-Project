@@ -824,9 +824,17 @@ a{
     padding-left: 70px;
 }
 
-.values{
-    width: 60%;
-    max-width: 400px;
+.values__wrapper{
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+}
+
+.values__title, .values__header{
+    width: 40%;
+    margin: 0px;
+    padding:0px;
 }
 
 .price__body {
