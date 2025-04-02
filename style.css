@@ -717,12 +717,11 @@ a{
 }
 
 .email {
-    width: 100%;
-    max-width: 448px;
+    width: 80%;
+    max-width: 100px;
     position: relative;
-    left: 15%;
-    margin: 0px;
-    padding: 0px;
+    right: 55%;
+    
 }
 
 .enter{
