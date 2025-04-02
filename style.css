@@ -984,4 +984,33 @@ a{
     display: none;
 }
 
+.link__list {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link__item{
+    padding: 0px 0px 0px 0px;
+    margin: 8px 10px;
+}
+
+.last__bit{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.last__logo {
+    padding: 0px 0px 0px 250px;
+}
+
+.copyright{
+    padding: 0px 0px 0px 50px;
+}
+
+.twitter, .facebook, .youtube{
+    max-width: 32px;
+}
+
 }
