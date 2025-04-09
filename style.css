@@ -723,14 +723,15 @@ input {
 }
 
 .enter{
-    margin: 80px auto;
+    margin: 80px 0px 0px 0px;
     width: 350px;
     left: 0%;
 }
 
 .customers {
     font-size: 12px;
-    padding: 96px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
     }
 
 .logo__strip {
