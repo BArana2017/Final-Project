@@ -745,14 +745,7 @@ input {
     padding-right: 0px;
 }
 
- {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 400px;
-    text-align: center;
-}
-
-.service__wrapper {
+.service__wrapper{
     display: flex;
     flex-direction: column;
 }
@@ -812,9 +805,13 @@ input {
 }
 
 .steps__title {
-    padding: 0px 96px 0px 0px;
-    margin:auto;
+    padding: 0px;
+    margin:0 auto;
+}
 
+.steps__no{
+    margin: 0px;
+    padding: 52px 0px 0px 0px;
 }
 
 .steps__header{
@@ -822,7 +819,14 @@ input {
     margin: 0 auto;
 }
 
-.values__wrapper, .feature__body{
+.full__step {
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    flex-direction: column;
+}
+
+.values__wrapper, .feature__body, .steps__header{
     align-items: center;
     text-align: center;
     margin: 0px;
@@ -947,15 +951,6 @@ input {
 .values__header {
     padding: 0px 100px;
     font-size: 32px;
-}
-
-.values__description {
-    text-align: center;
-}
-
-.testimonials {
-    display: flex;
-    flex-direction: column;
 }
 
 .test__header, .price__head {
