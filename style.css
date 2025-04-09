@@ -716,13 +716,6 @@ a{
     padding-left: 50px;
 }
 
-.feature__body {
-    flex-direction: column;
-    width: 60%;
-    text-align: center;
-    padding: 0px 80px;
-}
-
 input {
     width: 100%;
     max-width: 130px;
@@ -752,9 +745,11 @@ input {
     padding-right: 0px;
 }
 
-.feature__body {
-   width: 100%;
-   margin: 0 auto;
+ {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
 }
 
 .service__wrapper {
@@ -827,7 +822,7 @@ input {
     margin: 0 auto;
 }
 
-.values__wrapper{
+.values__wrapper, .feature__body{
     align-items: center;
     text-align: center;
     margin: 0px;
