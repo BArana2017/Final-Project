@@ -541,13 +541,13 @@ h6 {
 }
 
 .test__title {
-    padding: 0px 140px 0px 0px;
+    padding: 0px 0px 0px 30px;
 }
 
 .star {
     width: 100px;
     height:20px;
-    padding: 0px 340px 0px 0px;
+    padding: 0px 0px 0px 30px;
 }
 
 .test__header {
