@@ -732,15 +732,15 @@ a{
     padding-left: 50px;
 }
 
-input {
+.email__input {
     width: 100%;
     max-width: 130px;
     margin: 0 auto;    
 }
 
 .enter{
-    margin: 80px 0px 0px 0px;
-    width: 350px;
+    margin: 130px 0px 0px 0px;
+    width: 360px;
     left: 0%;
 }
 
