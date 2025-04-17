@@ -463,7 +463,7 @@ h6 {
 .all__three {
     display: flex;
     justify-content: space-around;
-    margin: 0px 96px;
+    margin: 0px;
    }
 
 .b__feat {
@@ -633,6 +633,7 @@ color:#6415ff;
     flex-direction: column; 
     align-items:start;
     justify-content: center;
+    padding: 0px 76px;
 }
 
 .link__item {
@@ -669,7 +670,7 @@ a{
 }
 
 .last__logo {
-    margin: 100px 250px 50px 0px;
+    margin: 100px 240px 50px 10px;
     font-size: 20px;
 }
 
