@@ -189,6 +189,7 @@ span {
 
 .features {
     padding: 80px;
+    margin:auto;
 }
 
 .feature__title, .price__title {
@@ -196,19 +197,21 @@ span {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-
+    margin:auto;
 }
 
 .feature__head, .price__head {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
-}
+    margin: 12px 0px 0px 50px;
+    }
 
 .description {
     color: #7c8ba1;
     font-size: 16px;
     text-align: left;
+    margin:auto;
 }
 
 .price__body, .feature__body {
@@ -217,12 +220,13 @@ span {
     text-align: center;
     max-width: 40rem;
     padding: 0px 280px;
-    margin: 0 auto;
+    margin: 12px 0px 0px 50px;
 }
 
 .services {
     display: flex;
     flex-wrap: wrap;
+    margin: 12px 0px 0px 100px;
 }
 
 .title, .test__title {
@@ -296,7 +300,7 @@ span {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
-    margin-left: 30px;
+    margin: 30px;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 24px;
@@ -470,7 +474,7 @@ h6 {
 .all__three {
     display: flex;
     justify-content: space-around;
-    margin: 0px;
+    margin: 0px 0px 0px 40px;
    }
 
 .b__feat {
