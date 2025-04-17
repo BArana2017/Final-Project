@@ -1,6 +1,5 @@
 * {
     font-family: Inter;
-    max-width: 1200px;
 }
 
 nav {
@@ -294,6 +293,8 @@ span {
 .quality__wrapper, .values__wrapper {
     display: flex;
     flex-direction: column;
+    margin-left:80px;
+
 }
 
 .learn {
@@ -626,6 +627,11 @@ color:#6415ff;
     flex-wrap: wrap;
     padding-top: 16px;
     background-color: rgb(100 21 255);
+}
+
+.no {
+    display:flex;
+    margin-left:60px;
 }
 
 .links {
