@@ -1021,7 +1021,7 @@ a{
     display: none;
 }
 
-.link__list {
+.link__list, .no {
     flex-wrap: wrap;
     justify-content: center;
 }
