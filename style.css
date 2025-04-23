@@ -49,6 +49,10 @@ nav {
     left: 0;
 }
 
+.the__header {
+    font-size: 32px;
+}
+
 .submit {
     font-size: 16px;
     color: #f7fafc;
@@ -115,7 +119,7 @@ nav {
 
 .logo {
     width: 150px;
-    margin-left: 50px;
+    margin-left: 80px;
 
 }
 
@@ -180,9 +184,14 @@ span {
     transition: border-color 300ms;
 }
 
+.template {
+    width: 40%;
+    padding-right: 150px;
+}
+
 .open-img {
     max-width: 512px;
-    width: 100%;
+    width: 60%;
     display: flex;
 }
 
@@ -737,7 +746,7 @@ a{
 .the__header, .feature__head {
     flex-direction: column;
     width: 60%;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     padding-left: 50px;
 }
