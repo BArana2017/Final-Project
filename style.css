@@ -273,15 +273,15 @@ span {
 
 .quality__title, .values__title, .step__title, .tests__title {
     color: #6415ff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    margin-left: 32px;
+    margin: 0px 0px 20px 0px;
 }
 
 .quality__header, .values__header, .test__header, .steps__header {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 700;
-    margin: 8px 0px 0px 32px;
+    margin: 0px;
     width: 60%;
 }
 
@@ -289,24 +289,25 @@ span {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 8px 0px 16px 32px;
-    width: 60%;
+    margin: 32px 0px 16px 0px;
+    width: 75%;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .screenshot {
     width: 40%;
-    height: 300px;
+    height: 350px;
     display: flex;
     vertical-align: middle;
-    margin: 80px 52px 0px 0px;
+    margin: 80px 80px 0px 0px;
     border: solid 1px;
 }
 
 .quality__wrapper, .values__wrapper {
     display: flex;
     flex-direction: column;
-    margin-left:80px;
+    margin-left: 32px;
 
 }
 
@@ -314,7 +315,7 @@ span {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
-    margin: 30px;
+    margin: 12px 0px 0px 0px;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 24px;
