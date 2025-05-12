@@ -214,23 +214,25 @@ span {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
-    margin: 12px 0px 0px 50px;
+    margin: 32px 0px 32px 0px;
     }
 
 .description {
     color: #7c8ba1;
     font-size: 16px;
+    font-weight: 500;
     text-align: left;
-    margin:auto;
+    margin: 24px 0px 0px 0px;
+    line-height: 2;
 }
 
 .price__body, .feature__body {
     color: #7c8ba1;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     max-width: 40rem;
     padding: 0px 280px;
-    margin: 12px 0px 0px 50px;
+    margin: 12px 0px 48px 0px;
 }
 
 .services {
