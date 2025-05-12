@@ -604,10 +604,17 @@ h6 {
     background-color:rgb(236, 238, 242);
 }
 
+.test__button:hover {
+    background-color:rgb(227, 227, 237);
+    transition-duration: 300ms;
+    border-width: 0;
+    cursor: pointer;
+   }
+
 .divider {
     width: 1px;
     height: 24px;
-    background: rgb(147, 149, 152);
+    background: rgb(224, 226, 230);
     margin: 30px 20px 0px 20px;
 }
 
