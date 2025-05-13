@@ -626,6 +626,7 @@ h6 {
     color: #f7fafc;
     font-size: 32px;
     padding: 60px;
+    width: 40%;
 }
 
 .development {
@@ -635,13 +636,13 @@ h6 {
 }
 
 .develop {
-    background-color: orangered;
+    background-color: #f56565;
     margin: 80px 30px;
     
 }
 
 .dev__button {
-    border: solid 2px #f7fafc;
+    border: solid 1px rgb(160, 174, 192);
     margin: 80px 30px;
     background-color:  rgb(100 21 255);
 }
@@ -656,7 +657,7 @@ color:#6415ff;
 }
 
 .develop:hover {
-    background-color: #f56565;
+    background-color:rgba(229, 62, 62);;
 }
 
 .foot {
