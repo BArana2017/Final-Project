@@ -9,7 +9,6 @@ nav {
     justify-content: space-between;
     padding: 8px;
     font-family: Inter;
-    max-width: 1200px;
 }
 
 .nav__links{
@@ -117,7 +116,7 @@ nav {
     font-size: 16px;
     color: #f7fafc;
     padding: 8px 28px;
-    margin: 40px 0px 0px 0px;
+    margin: 0px;
     background-color: #6415ff;
     cursor: pointer;
     border-radius: 24px;
@@ -789,8 +788,9 @@ a{
 
 .email__input {
     width: 100%;
-    max-width: 130px;
-    margin: 0 auto;    
+    max-width: 200px;
+    margin: auto;
+    padding-right: 0px;    
 }
 
 .enter{
@@ -826,6 +826,7 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: auto;
 }
 
 .description{
@@ -865,7 +866,7 @@ a{
     width: 400px;
     height:100px
     padding: 50px;
-    margin: 0 auto;
+    margin: 0 auto 32px auto;
 }
 
 .laptop {
@@ -873,12 +874,7 @@ a{
 }
 
 .step__title{
-    margin:auto;
-}
-
-.steps__title {
-    padding: 0px;
-    margin:0 auto;
+    margin-right: 100px;
 }
 
 .steps__no{
@@ -888,7 +884,7 @@ a{
 
 .steps__header{
     font-size: 32px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .full__step {
@@ -898,11 +894,31 @@ a{
     flex-direction: column;
 }
 
+.stepper {
+    width: 200px;
+    margin: auto;
+}
+
 .values__wrapper, .feature__body, .steps__header{
     align-items: center;
     text-align: center;
     margin: 0px;
     padding:0px;
+}
+
+.values__description {
+    text-align: center;
+}
+
+.description {
+    width: 300px;
+}
+
+.idk {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .values__title, .values__header{
@@ -958,7 +974,8 @@ a{
 .test__paragraph {
     align-items: center;
     text-align: center;
-    padding: 0px 50px 0px 0px;
+    padding: 0px;
+    max-width: 400px;
 }
 
 .test__title{
@@ -994,7 +1011,7 @@ a{
 }
 
 .last__logo{
-    padding: 0px 250px;
+    margin: 48px auto;
     font-weight: 700;
 }
 
@@ -1008,13 +1025,6 @@ a{
 
 .values_icon {
     display: none;
-}
-
-.idk {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 200px;
 }
 
 .values__header, .values__descriprion, .values__title {
@@ -1068,11 +1078,11 @@ a{
 }
 
 .last__logo {
-    padding: 0px 0px 0px 250px;
+    padding: 0px;
 }
 
 .copyright{
-    padding: 0px 0px 0px 50px;
+    padding: 0px;
 }
 
 .twitter, .facebook, .youtube{
