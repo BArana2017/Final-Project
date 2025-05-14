@@ -742,19 +742,19 @@ a{
 .facebook {
     border-radius: 9999px;
     margin: 8px 0px 8px 20px;
-    width: 56px;
+    width: 48px;
     }
 
 .twitter {
     margin: 8px 0px 8px 10px;
     border-radius: 9999px;
-    width: 56px;
+    width: 47px;
 }
 
 .youtube {
     margin: 8px 0px 8px 10px;
     border-radius: 9999px;
-    width: 56px;
+    width: 48px;
 }
 
 @media (max-width: 728px) {
