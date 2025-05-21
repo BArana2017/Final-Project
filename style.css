@@ -629,6 +629,10 @@ h6 {
     width: 40%;
 }
 
+.development, .foot {
+    padding: 0px 300px;
+}
+
 .development {
     display: flex;
     margin-bottom: 300px;
