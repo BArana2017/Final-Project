@@ -490,7 +490,7 @@ h6 {
 .all__three {
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin: auto 300px;
    }
 
 .b__feat {
