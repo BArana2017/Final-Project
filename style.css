@@ -554,7 +554,7 @@ h6 {
 
 .testimonials {
     display: flex;
-    padding: 96px 0px 300px 0px; 
+    padding: 96px 300px 300px 300px; 
 }
 
 .test__img {
