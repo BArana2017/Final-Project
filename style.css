@@ -101,7 +101,7 @@ nav {
 .logo {
     width: 133px;
     height: 43px;
-    margin: 7px 100px 0px 280px;
+    margin: 7px 100px 0px 200px;
 
 }
 
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .customer__container{
-    margin-left: 260px;
+    margin-left: 200px;
 }
 
 .the__header {
