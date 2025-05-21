@@ -15,7 +15,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-left: 300px;
+    padding-left: 400px;
 }
 
 .nav__link{
@@ -101,7 +101,7 @@ nav {
 .logo {
     width: 133px;
     height: 43px;
-    margin: 7px 100px 0px 17px;
+    margin: 7px 100px 0px 280px;
 
 }
 
@@ -150,8 +150,12 @@ button:hover {
     flex-direction: center;
 }
 
+.customer__container{
+    margin-left: 260px;
+}
+
 .the__header {
-    font-size: 34px;
+    font-size: 48px;
     margin: 0px;
 }
 
@@ -186,11 +190,11 @@ span {
 
 .template {
     width: 40%;
-    padding: 0px 230px 0px 0px;
+    padding: 50px 100px 0px 0px;
 }
 
 .open-img {
-    max-width: 512px;
+    max-width: 750px;
     width: 60%;
     display: flex;
     padding-top: 20px;
