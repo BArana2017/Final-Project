@@ -633,6 +633,10 @@ h6 {
     display:flex
 }
 
+.the__buttons {
+    display: flex;
+}
+
 .developers {
     color: #f7fafc;
     font-size: 32px;
@@ -784,10 +788,23 @@ a{
     display:none;
 }
 
+.nav__logo {
+    padding-left: 48px;
+}
+
+.open-img {
+    width: 100%;
+    max-width: 512px;
+    padding: 500px 0px 0px 0px;
+    margin: auto;
+}
+
 .the__header, .feature__head {
     flex-direction: column;
     font-size: 30px;
     text-align: center;
+    width: 100%;
+    margin: 24px 0px;
 }
 
 .subheader__description {
@@ -831,6 +848,8 @@ a{
 .service__wrapper{
     display: flex;
     flex-direction: column;
+    margin:auto;
+    width: 100%;
 }
 
 .services {
@@ -1064,7 +1083,12 @@ a{
 }
 
 .testimonial__buttons {
-    display: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.the__buttons {
+    display: flex;
 }
 
 .out {
