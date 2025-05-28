@@ -1,14 +1,10 @@
 * {
-    font-family: Inter;
+    font-family: 'Inter', system-ui;
 }
 
 nav {
-    height: 60px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px;
-    font-family: Inter;
+    padding-top: 32px;
 }
 
 .nav__links{
@@ -98,18 +94,33 @@ nav {
     z-index: 2;
 }
 
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+    padding-bottom: 4px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+}
+
 .logo {
-    width: 133px;
-    height: 43px;
-    margin: 7px 100px 0px 200px;
+    width: 40px;
+    height: 40px;
 
 }
 
 .logo__bar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 40px 0px 0px 0px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .submit {
@@ -766,34 +777,29 @@ a{
     
 *{
     margin: 0 auto;
+    text-align: center;
 }
 
 .nav__links, .submit {
     display:none;
 }
 
-.open-img {
-    display:none;
-    }
-
 .the__header, .feature__head {
     flex-direction: column;
-    width: 60%;
     font-size: 30px;
     text-align: center;
-    padding-left: 50px;
 }
 
 .subheader__description {
     flex-direction: column;
-    width: 60%;
     text-align: center;
-    padding-left: 50px;
+    width:300px;
+    margin: 32px 600px 48px 0px;
 }
 
 .email__input {
     width: 100%;
-    max-width: 200px;
+    max-width: 900px;
     margin: auto;
     padding-right: 0px;    
 }
@@ -818,8 +824,8 @@ a{
     max-width: 450px;
 }
 
-.feature__head {
-    padding-right: 0px;
+.feature__head, .feature__body {
+    padding: 0px 100px;
 }
 
 .service__wrapper{
