@@ -62,7 +62,7 @@ nav {
     align-items: center;
 }
 
-.enter {
+.header__email--btn {
     font-size: 16px;
     color: #f7fafc;
     padding: 12px 32px;
@@ -74,7 +74,7 @@ nav {
     text-decoration: none;
     border-color: transparent;
     position: relative;
-    right: 2%;
+    left: 33.5%;
 }
 
 .develop, .dev__button {
@@ -634,7 +634,7 @@ h6 {
 }
 
 .the__buttons {
-    display: flex;
+    display:flex;
 }
 
 .developers {
@@ -784,6 +784,13 @@ a{
     text-align: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .nav__links, .submit {
     display:none;
 }
@@ -795,7 +802,7 @@ a{
 .open-img {
     width: 100%;
     max-width: 512px;
-    padding: 500px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     margin: auto;
 }
 
@@ -811,7 +818,7 @@ a{
     flex-direction: column;
     text-align: center;
     width:300px;
-    margin: 32px 600px 48px 0px;
+    margin: 32px 0px 48px 0px;
 }
 
 .email__input {
@@ -821,7 +828,7 @@ a{
     padding-right: 0px;    
 }
 
-.enter{
+.header__email--btn{
     margin: 130px 0px 0px 0px;
     width: 360px;
     left: 0%;
@@ -835,6 +842,7 @@ a{
 
 .logo__strip {
     width: 300px;
+    padding-bottom: 0px;
     }
 
 .feature__title {
@@ -870,7 +878,6 @@ a{
 
 .quality__header, .test__header {
     flex-direction: column;
-    width: 90%;
     font-size: 32px;
     text-align: center; 
     padding: 12px 0px 32px 0px;
@@ -890,6 +897,7 @@ a{
 .container {
     display: flex;
     flex-direction: column-reverse;
+    margin: 0px;
 }
 
 .screenshot{
