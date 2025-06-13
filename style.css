@@ -52,14 +52,19 @@ nav {
     display: flex;
 }
 
-.email__input--wrapper{
+.email__input{
     width: 100%;
-    max-width: 448px;
-    height: 68px;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;    
+    border-radius: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(229, 231, 235);
+    border-image: initial;
+    padding: 20px 192px 20px 32px;
+    transition: border-color 300ms;
 }
 
 .header__email--btn {
@@ -74,7 +79,7 @@ nav {
     text-decoration: none;
     border-color: transparent;
     position: relative;
-    left: 33.5%;
+    left: 44%;
 }
 
 .develop, .dev__button {
@@ -199,14 +204,14 @@ span {
     transition: border-color 300ms;
 }
 
-.template {
-    width: 40%;
-    padding: 50px 0px 0px 80px;
+.header__description {
+    width: 30%;
+    padding: 50px 0px 0px 270px;
 }
 
 .open-img {
-    max-width: 750px;
-    width: 60%;
+    max-width: 700px;
+    width: 100%;
     display: flex;
     padding-top: 20px;
 }
@@ -252,6 +257,14 @@ span {
     display: flex;
     flex-wrap: wrap;
     margin: 0px 400px;
+}
+
+.row__narrow{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title, .test__title {
