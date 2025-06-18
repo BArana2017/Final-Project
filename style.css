@@ -937,8 +937,9 @@ a{
     display: none;   
 }
 
-.step__title{
-    margin-right: 100px;
+.steps__container, .step__list{
+    margin: 0px;
+    padding: 0px;
 }
 
 .steps__no{
@@ -948,7 +949,7 @@ a{
 
 .steps__header{
     font-size: 32px;
-    margin: auto;
+    margin: 0px;
 }
 
 .full__step {
@@ -960,7 +961,7 @@ a{
 
 .stepper {
     width: 200px;
-    margin: auto;
+    margin: 0px;
 }
 
 .values__wrapper, .feature__body, .steps__header{
@@ -1125,8 +1126,18 @@ a{
     display: flex;
 }
 
-.out {
-    display: none;
+.development {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 96px 0px;
+    padding: 50px 0px 0px 0px;
+}
+
+.developers{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    max-width: 600px;
 }
 
 .link__list, .no {
