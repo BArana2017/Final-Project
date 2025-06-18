@@ -1140,6 +1140,14 @@ a{
     max-width: 600px;
 }
 
+.develop__buttons{
+    flex-direction: column;
+}
+
+.develop{
+    margin: 48px auto 0px auto;
+}
+
 .link__list, .no {
     flex-wrap: wrap;
     justify-content: center;
