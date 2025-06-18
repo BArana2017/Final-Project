@@ -884,6 +884,18 @@ a{
     text-align: center;
 }
 
+#quality .row{
+    flex-direction: column-reverse;
+}
+
+.quality__wrapper {
+    width: 100%;
+    max-width: 450px;
+    padding: 0px;
+    margin: 64px auto;
+    text-align: center;
+}
+
 .quality__title, .step__title, .tests__title {
     text-align: center; 
     padding: 0px;
@@ -891,9 +903,10 @@ a{
 
 .quality__header, .test__header {
     flex-direction: column;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center; 
     padding: 12px 0px 32px 0px;
+    width: 100%;
 }
 
 .quality__description, .values__descriprion, .price__body {
