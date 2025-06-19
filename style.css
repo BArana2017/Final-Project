@@ -842,15 +842,22 @@ a{
 
 .email__input {
     width: 100%;
-    max-width: 900px;
-    margin: auto;
-    padding-right: 0px;    
+    max-width: 350px;
+    margin: 0px;
+    padding: 24px 0px;    
+}
+
+.header__email {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
 }
 
 .header__email--btn{
-    margin: 130px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     width: 360px;
     left: 0%;
+    padding: 24px 0px;
 }
 
 .customers {
