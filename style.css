@@ -1148,9 +1148,20 @@ a{
     margin: 48px auto 0px auto;
 }
 
-.link__list, .no {
+.link__list {
     flex-wrap: wrap;
     justify-content: center;
+    width: auto;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.no{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding:0px;
 }
 
 .link__item{
@@ -1161,8 +1172,10 @@ a{
 .last__bit{
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    max-width: 400px;
+    display:flex;
+    justify-content: space-between;
+    margin:0px;
+    padding: 0px;    
 }
 
 .last__logo {
