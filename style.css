@@ -50,6 +50,7 @@ nav {
 
 .row{
     display: flex;
+    margin: 0 auto;
 }
 
 .email__input{
@@ -825,6 +826,11 @@ a{
     text-align: center;
     width: 100%;
     margin: 24px 0px;
+}
+
+.header__description{
+    padding:0px;
+    width: 100%;
 }
 
 .subheader__description {
