@@ -950,7 +950,7 @@ a{
     display: none;   
 }
 
-.steps__container, .step__list{
+.steps__container, .step__list, .full__step, .easy__container{
     margin: 0px;
     padding: 0px;
 }
