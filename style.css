@@ -1,5 +1,6 @@
 * {
     font-family: 'Inter', system-ui;
+    max-width: 2000px;
 }
 
 nav {
@@ -80,7 +81,7 @@ nav {
     text-decoration: none;
     border-color: transparent;
     position: relative;
-    left: 44%;
+    left: 48%;
 }
 
 .develop, .dev__button {
@@ -160,7 +161,8 @@ button:hover {
    }
 
 .opening {
-    padding: 96px 0px 0px 32px;
+    margin: 0 auto;
+    padding: 96px;
     font-size: 32px;
     font-weight: 700;
     display: flex;
@@ -356,7 +358,7 @@ span {
 
 .container {
     display: flex;
-    margin-bottom: 96px;
+    margin: 0px 0px 96px 0px;
 }
 
 .easy__container {
