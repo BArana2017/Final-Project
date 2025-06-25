@@ -1,7 +1,15 @@
 * {
-    font-family: 'Inter', system-ui;
     max-width: 2000px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", system-ui;
 }
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    }
 
 nav {
     display: flex;
@@ -81,7 +89,7 @@ nav {
     text-decoration: none;
     border-color: transparent;
     position: relative;
-    left: 48%;
+    left: 55%;
 }
 
 .develop, .dev__button {
@@ -209,7 +217,8 @@ span {
 
 .header__description {
     width: 30%;
-    padding: 50px 0px 0px 270px;
+    padding: 50px 0px 0px 70px;
+    margin: auto;
 }
 
 .open-img {
@@ -217,6 +226,7 @@ span {
     width: 100%;
     display: flex;
     padding-top: 20px;
+    margin-right: 200px;
 }
 
 .features {
@@ -672,13 +682,13 @@ h6 {
 
 .develop {
     background-color: #f56565;
-    margin: 80px 30px;
+    margin: 100px 30px;
     
 }
 
 .dev__button {
     border: solid 1px rgb(160, 174, 192);
-    margin: 80px 30px;
+    margin: 100px 30px;
     background-color:  rgb(100 21 255);
 }
 
@@ -1004,14 +1014,14 @@ a{
 }
 
 .values__title, .values__header{
-    width: 40%;
+    width: 100%;
     margin: 0px;
     padding:0px;
 }
 
 .price__body {
     padding-left:60px;
-    width: 70%;
+    width: 100%;
     max-width: 450px;
 }
 
@@ -1040,7 +1050,6 @@ a{
 }
 
 .test__header{
-    width: 350px;
     max-width: 100%;
     align-items: center;
     text-align: center;
@@ -1061,8 +1070,7 @@ a{
 }
 
 .test__title{
-    width: 60%;
-    max-width: 300px;
+    width: 100%;
     align-items: center;
     text-align: center;
     padding: 0px 0px 0px 0px;
